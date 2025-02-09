@@ -1632,7 +1632,7 @@ thanks-page
     #work-post__list th{
         width: 40%;
         font-weight: bold;
-        padding-right: 24px;
+        padding-right: 8px;
     }
     .work-post__img{
         width: 100%;
