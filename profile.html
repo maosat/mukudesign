@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mukudesign</title>
+    <link rel="stylesheet" href="https://use.typekit.net/dqy5apx.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header__inner">
+            <h1 class="logo">
+                <a href="./index.html">
+                    <img src="./img/logo.png" alt="logo">
+                </a>
+            </h1>
+            <nav class="header__nav">
+                <ul>
+                    <li>
+                        <a href="#mukudesign" class="nav__btn">
+                            <span class="nav__default">muku design</span>
+                            <span class="nav__afterRotate">muku design</span>
+                            <span class="nav__bg" role="presentation"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="profile.html" class="nav__btn">
+                            <span class="nav__default">PROFILE</span>
+                            <span class="nav__afterRotate">プロフィール</span>
+                            <span class="nav__bg" role="presentation"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#service" class="nav__btn">
+                            <span class="nav__default">SERVICE</span>
+                            <span class="nav__afterRotate">できること</span>
+                            <span class="nav__bg" role="presentation"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="work.html" class="nav__btn">
+                            <span class="nav__default">WORK</span>
+                            <span class="nav__afterRotate">作品一覧</span>
+                            <span class="nav__bg" role="presentation"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="nav__btn">
+                            <span class="nav__default text__yellow">CONTACT</span>
+                            <span class="nav__afterRotate text__yellow">お問い合わせ</span>
+                            <span class="nav__bg" role="presentation"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="nav-insta">
+                <a href="https://www.instagram.com/design.muku" target="_blank">
+                    <img src="./img/insta.png" alt="インスタグラムアイコン">
+                </a>
+            </div>
+        </div>
+
+        <div class="sp-header pc-none">
+            <div class="sp-header__btn">
+                <div class="sp-nav__insta">
+                    <a href="https://www.instagram.com/design.muku" target="_blank">
+                        <img src="./img/sp-insta.png" alt="インスタグラムアイコン">
+                    </a>
+                </div>
+                <div class="sp-nav__hamburger">
+                    <span class="hamburger"></span>
+                    <div class="sp-nav__line--left"></div>
+                    <div id="hamburger__text" class="text sp-header__text">
+                        MENU
+                    </div>
+                    <div class="sp-nav__line--right"></div>
+                </div>
+                <div class="sp-nav__top">
+                    <a class="sp-nav__top-inner" href="#header">
+                        <img src="./img/top_btn.svg" alt="">
+                        <div class="text sp-header__text">
+                            TOP
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <nav class="sp-header__nav">
+                <h1 class="sp-nav__logo">
+                    <a href="./index.html">
+                        <img src="./img/logo.png" alt="logo">
+                    </a>
+                </h1>    
+                <ul class="sp-nav__list">
+                    <li class="sp-nav__item">
+                        <a href="#mukudesign">
+                            <div class="text sp-nav__text--en">muku design</div>
+                            <div class="text sp-nav__text--ja">muku design</div>
+                        </a>
+                    </li>
+                    <li class="sp-nav__item">
+                        <a href="profile.html">
+                            <div class="text sp-nav__text--en">PROFILE</div>
+                            <div class="text sp-nav__text--ja">プロフィール</div>
+                        </a>
+                    </li>
+                    <li class="sp-nav__item">
+                        <a href="#service">
+                            <div class="text sp-nav__text--en">SERVICE</div>
+                            <div class="text sp-nav__text--ja">できること</div>
+                        </a>
+                    </li>
+                    <li class="sp-nav__item">
+                        <a href="work.html">
+                            <div class="text sp-nav__text--en">WORK</div>
+                            <div class="text sp-nav__text--ja">作品一覧</div>
+                        </a>
+                    </li>
+                    <li class="sp-nav__item">
+                        <a href="contact.html">
+                            <div class="text sp-nav__text--en">CONTACT</div>
+                            <div class="text sp-nav__text--ja sp-nav__text--last">お問い合わせ</div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <nav class="breadcrumb__wrapper">
+            <ol class="breadcrumb">
+                <li><a href="index.html">HOME</a></li>
+                <li class="breadcrumb__line">PROFILE</li>
+            </ol>
+        </nav>
+        <section id="profile-page" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <div class="wrapper profile-page">
+                <div class="profile-page__wrapper">
+                    <h2 class="title profile-page__title">
+                        PROFILE
+                    </h2>
+                    <h4 class="ja-title profile-page__ja-title">
+                        プロフィール
+                    </h4>
+
+                    <div class="profile-page__inner">
+                        <div class="profile-page__item profile-page__img">
+                            <img src="./img/profile.png" alt="プロフィール画像">
+                        </div>
+                        <div class="profile-page__item profile-page__text">
+                            <div class="profile-page__name">
+                                <p class="profilepage-designer">Designer</p>
+                                <div class="profilepage-mao">
+                                    <p class="profilepage-janame">佐藤 舞桜</p> 
+                                    <p class="profilepage-name">Mao Sato</p>        
+                                </div>
+                            </div>
+                            <div class="profile-page__content">
+                                <p class="profilepage-heading">Hometown</p>
+                                <p class="profilepage-hometown">
+                                    秋田県横手市
+                                </p> 
+                                <p class="profilepage-heading">Favorite</p>
+                                <p class="profilepage-favorite">
+                                    カフェ巡り、ラーメン、ファッション、アニメ、温泉、犬、イラストを描くこと、寝ること
+                                </p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="profilepage-about" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <div class="wrapper profilepage-about__section">
+                <h2 class="title profile-page__title profilepage-about__title">
+                    ABOUT
+                </h2>
+                <div class="profilepage-about__text">
+                    <p>
+                        「人を笑顔にできる仕事がしたい」<br>
+                        就活時代から変わらない私の大切な想いです。<br>
+                        アパレル販売員、<br class="pc-none">映像制作会社のアシスタントディレクター、<br>
+                        EC運用会社でのディレクター経験を通して、<br>
+                        「笑顔」をお客様と共有し、<br class="pc-none">周りに伝染させることができること、<br>
+                        デザインの力で商品や人の魅力を<br>
+                        さらに伝えることができることを実感しました。<br>
+                        大切な「想い」をカタチにして、<br>
+                        「笑顔」を伝染させることができる、<br>
+                        そんなデザイナーを目指しています。<br>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="profilepage-skill" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <div class="wrapper profilepage-skill__section">
+                <h2 class="title profile-page__title profilepage-skill__title">
+                    SKILL
+                </h2>
+
+                <div class="profilepage-graph__inner">
+                    <div class="profilepage-graph__list ani">
+                        <ul class="profilepage-graph__list--left">
+                            <li class="profilepage-graph__item">
+                                <p class="profilepage-graph__text">Photoshop</p>
+                                <div class="profilepage-graph">
+                                    <div class="profilepage-graph__photoshop"></div>
+                                </div>
+                            </li>
+                            <li class="profilepage-graph__item">
+                                <p class="profilepage-graph__text">Illustrator</p>
+                                <div class="profilepage-graph">
+                                    <div class="profilepage-graph__illustrator"></div>
+                                </div>
+                            </li>
+                            <li class="profilepage-graph__item">
+                                <p class="profilepage-graph__text">Figma</p>
+                                <div class="profilepage-graph">
+                                    <div class="profilepage-graph__figma"></div>
+                                </div>
+                            </li>
+                            <li class="profilepage-graph__item">
+                                <p class="profilepage-graph__text">HTML5</p>
+                                <div class="profilepage-graph">
+                                    <div class="profilepage-graph__html"></div>
+                                </div>
+                            </li>
+                            <li class="profilepage-graph__item">
+                                <p class="profilepage-graph__text">CSS</p>
+                                <div class="profilepage-graph">
+                                    <div class="profilepage-graph__css"></div>
+                                </div>
+                            </li>
+                            <li class="profilepage-graph__item">
+                                <p class="profilepage-graph__text">Javascript</p>
+                                <div class="profilepage-graph">
+                                    <div class="profilepage-graph__js"></div>
+                                </div>
+                            </li>
+                            <li class="profilepage-graph__item">
+                                <p class="profilepage-graph__text">Premia Pro</p>
+                                <div class="profilepage-graph">
+                                    <div class="profilepage-graph__premia"></div>
+                                </div>
+                            </li>
+                            <li class="profilepage-graph__item">
+                                <p class="profilepage-graph__text">After Effects</p>
+                                <div class="profilepage-graph">
+                                    <div class="profilepage-graph__af"></div>
+                                </div>
+                            </li>
+                            <li class="profilepage-graph__item">
+                                <p class="profilepage-graph__text">PageFly</p>
+                                <div class="profilepage-graph">
+                                    <div class="profilepage-graph__pagefly"></div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="profilepage-graph__list--right">
+                            <li class="profilepage-graph__item">
+                                <p class="profilepage-graph__text">gmail</p>
+                                <div class="profilepage-graph">
+                                    <div class="profilepage-graph__gmail"></div>
+                                </div>
+                            </li>
+                            <li class="profilepage-graph__item">
+                                <p class="profilepage-graph__text">LINE</p>
+                                <div class="profilepage-graph">
+                                    <div class="profilepage-graph__line"></div>
+                                </div>
+                            </li>
+                            <li class="profilepage-graph__item">
+                                <p class="profilepage-graph__text">Slack</p>
+                                <div class="profilepage-graph">
+                                    <div class="profilepage-graph__slack"></div>
+                                </div>
+                            </li>
+                            <li class="profilepage-graph__item">
+                                <p class="profilepage-graph__text">Chatwork</p>
+                                <div class="profilepage-graph">
+                                    <div class="profilepage-graph__chatwork"></div>
+                                </div>
+                            </li>
+                            <li class="profilepage-graph__item">
+                                <p class="profilepage-graph__text">Excel</p>
+                                <div class="profilepage-graph">
+                                    <div class="profilepage-graph__excel"></div>
+                                </div>
+                            </li>
+                            <li class="profilepage-graph__item">
+                                <p class="profilepage-graph__text">Word</p>
+                                <div class="profilepage-graph">
+                                    <div class="profilepage-graph__word"></div>
+                                </div>
+                            </li>
+                            <li class="profilepage-graph__item">
+                                <p class="profilepage-graph__text">Powerpoint</p>
+                                <div class="profilepage-graph">
+                                    <div class="profilepage-graph__powerpoint"></div>
+                                </div>
+                            </li>
+                            <li class="profilepage-graph__item">
+                                <p class="profilepage-graph__text">zoom</p>
+                                <div class="profilepage-graph">
+                                    <div class="profilepage-graph__zoom"></div>
+                                </div>
+                            </li>
+                            <li class="profilepage-graph__item">
+                                <p class="profilepage-graph__text">google meet</p>
+                                <div class="profilepage-graph">
+                                    <div class="profilepage-graph__meet"></div>
+                                </div>
+                            </li>
+                        </ul>     
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <div class="wrapper contact-section">
+                <h2 class="title contact-title">
+                    CONTACT
+                </h2>
+                <p class="text contact-text">
+                    制作のご依頼やご相談はこちらからお問合せください。
+                </p>
+                <div class="contact-img">
+                    <svg id="contact-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 301 301">
+                        <defs>
+                            <style>
+                                .contact-img01{stroke-dasharray:6.04 6.04 6.04 6.04 6.04 6.04;stroke-miterlimit:10;}
+                                .contact-img01,.contact-img02{fill:none;}
+                                .contact-img01,.contact-img03{stroke:#452e13;}
+                                .contact-img02{stroke:#e5e1da;stroke-width:3px;}
+                                .contact-img02,.contact-img03{stroke-linecap:round;stroke-linejoin:round;}
+                                .contact-img03{stroke-width:3.72px;}
+                                .contact-img03,.contact-img04{fill:#fff;}
+                            </style>
+                        </defs>
+                        <g id="contact-img__inner">
+                            <circle class="contact-img04" cx="150.5" cy="150.5" r="150"/>
+                            <circle class="contact-img01" cx="150.5" cy="150.5" r="150"/>
+                            <line class="contact-img02" x1="163.94" y1="3.45" x2="37.92" y2="82.7"/>
+                            <line class="contact-img02" x1="163.94" y1="50.3" x2="37.92" y2="129.55"/>
+                            <line class="contact-img02" x1="255.31" y1="43.07" x2="129.29" y2="122.32"/>
+                            <line class="contact-img02" x1="224.58" y1="124.97" x2="98.56" y2="204.21"/>
+                            <line class="contact-img02" x1="298.5" y1="138.89" x2="172.48" y2="218.14"/>
+                            <line class="contact-img02" x1="282.36" y1="209.14" x2="156.33" y2="288.39"/>
+                            <polygon class="contact-img03" points="205.95 110.69 159.67 197.2 119.94 162.24 90.73 136.53 205.95 110.69"/>
+                            <polygon class="contact-img03" points="116.38 189.88 139.69 179.62 119.94 162.24 116.38 189.88"/>
+                            <line class="contact-img03" x1="119.94" y1="162.24" x2="205.95" y2="110.69"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="contact__btn">
+                    <button class="btn-next__inner">
+                        <div class="btn btn__rotate btn-text__ja">
+                            <a href="contact.html">
+                                <span class="btn__next-text--default">ご依頼について</span>
+                                <span class="btn__next-text--fterRotate">ご依頼について</span>
+                            </a>
+                        </div>
+                        <div class="arrow-right">
+                            <img class="arrow-right__before" src="./img/btn_right.svg" alt="右矢印">
+                            <img class="arrow-right__after" src="./img/btn_right.svg" alt="右矢印">
+                        </div>
+                    </button>
+                    <div class="line-right">
+                        <div class="line-right__inner"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="footer__wrapper">
+            <div class="footer__logo">
+                <a href="index.html">
+                    <img src="./img/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="footer__inner">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="index.html">
+                            <p class="footer__text">muku design</p>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="profile.html">
+                            <p class="footer__text">PROFILE</p>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="index.html#service">
+                            <p class="footer__text">SERVICE</p>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="work.html">
+                            <span class="footer__text">WORK</span>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="contact.html">
+                            <span class="footer__text text__yellow">CONTACT</span>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="privacy-policy.html">
+                            <span class="footer__text text__gray">Privacy Policy</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-insta">
+                <a href="https://www.instagram.com/design.muku" target="_blank">
+                    <img src="./img/insta.png" alt="インスタグラムアイコン">
+                </a>
+            </div>
+            <div class="copyright">
+                <p>&copy;muku desigin ALL RIGHTS RESERVED</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="top-btn">
+        <a href="#header">
+            <img src="./img/top_btn.png" alt="">
+        </a>
+    </div>
+</body>
+</html>

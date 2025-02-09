@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mukudesign</title>
+    <link rel="stylesheet" href="https://use.typekit.net/dqy5apx.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/jquery-3.7.1.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header__inner">
+            <h1 class="logo">
+                <a href="./index.html">
+                    <img src="./img/logo.png" alt="logo">
+                </a>
+            </h1>
+            <nav class="header__nav">
+                <ul>
+                    <li>
+                        <a href="#mukudesign" class="nav__btn">
+                            <span class="nav__default">muku design</span>
+                            <span class="nav__afterRotate">muku design</span>
+                            <span class="nav__bg" role="presentation"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="profile.html" class="nav__btn">
+                            <span class="nav__default">PROFILE</span>
+                            <span class="nav__afterRotate">プロフィール</span>
+                            <span class="nav__bg" role="presentation"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#service" class="nav__btn">
+                            <span class="nav__default">SERVICE</span>
+                            <span class="nav__afterRotate">できること</span>
+                            <span class="nav__bg" role="presentation"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="work.html" class="nav__btn">
+                            <span class="nav__default">WORK</span>
+                            <span class="nav__afterRotate">作品一覧</span>
+                            <span class="nav__bg" role="presentation"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="nav__btn">
+                            <span class="nav__default text__yellow">CONTACT</span>
+                            <span class="nav__afterRotate text__yellow">お問い合わせ</span>
+                            <span class="nav__bg" role="presentation"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="nav-insta">
+                <a href="https://www.instagram.com/design.muku" target="_blank">
+                    <img src="./img/insta.png" alt="インスタグラムアイコン">
+                </a>
+            </div>
+        </div>
+
+        <div class="sp-header pc-none">
+            <div class="sp-header__btn">
+                <div class="sp-nav__insta">
+                    <a href="https://www.instagram.com/design.muku" target="_blank">
+                        <img src="./img/sp-insta.png" alt="インスタグラムアイコン">
+                    </a>
+                </div>
+                <div class="sp-nav__hamburger">
+                    <span class="hamburger"></span>
+                    <div class="sp-nav__line--left"></div>
+                    <div id="hamburger__text" class="text sp-header__text">
+                        MENU
+                    </div>
+                    <div class="sp-nav__line--right"></div>
+                </div>
+                <div class="sp-nav__top">
+                    <a class="sp-nav__top-inner" href="#header">
+                        <img src="./img/top_btn.svg" alt="">
+                        <div class="text sp-header__text">
+                            TOP
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <nav class="sp-header__nav">
+                <h1 class="sp-nav__logo">
+                    <a href="./index.html">
+                        <img src="./img/logo.png" alt="logo">
+                    </a>
+                </h1>    
+                <ul class="sp-nav__list">
+                    <li class="sp-nav__item">
+                        <a href="#mukudesign">
+                            <div class="text sp-nav__text--en">muku design</div>
+                            <div class="text sp-nav__text--ja">muku design</div>
+                        </a>
+                    </li>
+                    <li class="sp-nav__item">
+                        <a href="profile.html">
+                            <div class="text sp-nav__text--en">PROFILE</div>
+                            <div class="text sp-nav__text--ja">プロフィール</div>
+                        </a>
+                    </li>
+                    <li class="sp-nav__item">
+                        <a href="#service">
+                            <div class="text sp-nav__text--en">SERVICE</div>
+                            <div class="text sp-nav__text--ja">できること</div>
+                        </a>
+                    </li>
+                    <li class="sp-nav__item">
+                        <a href="work.html">
+                            <div class="text sp-nav__text--en">WORK</div>
+                            <div class="text sp-nav__text--ja">作品一覧</div>
+                        </a>
+                    </li>
+                    <li class="sp-nav__item">
+                        <a href="contact.html">
+                            <div class="text sp-nav__text--en">CONTACT</div>
+                            <div class="text sp-nav__text--ja sp-nav__text--last">お問い合わせ</div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="mainvisual">
+            <div class="mainvisual">
+                <ul class="mainvisual__list slider">
+                    <li class="mainvisual__item slide">
+                        <video src="./img/mv_muku.mp4" autoplay loop muted width="100%"></video>
+                    </li>
+                    <li class="mainvisual__item slide">
+                        <img src="./img/mv_banana.png" alt="バナナスプリッドのイラスト">
+                    </li>
+                    <li class="mainvisual__item slide">
+                        <img src="./img/mv_usagi.jpg" alt="うさぎのイラスト">
+                    </li>
+                    <li class="mainvisual__item slide">
+                        <img src="./img/mv_poodle.jpg" alt="トイプードルのイラスト">
+                    </li>
+                </ul>
+                <div class="dots-box"></div>
+            </div>
+            <div class="mainvisual__btn"></div>
+        </section>
+    
+        <section id="mukudesign">
+            <div class="wrapper muku-section" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                <h2 class="title muku-title">
+                    muku design
+                </h2>
+                <div class="muku-wrapper">
+                    <div class="muku-innner muku-innner__text">
+                        <h3 class="subtitle muku-subtitle">
+                            あなた「らしさ」を<br>
+                            デザインします。
+                        </h3>
+                        <p class="text muku-text">
+                            わたしらしさ、あなたらしさ、あの人らしさ。<br>
+                            すべての人やモノには個性があります。<br>
+                            あなたの個性にデザインをプラスして、<br>
+                            「らしさ」を引き出すお手伝いをさせていただきます。<br>
+                            サービスや商品にかける純粋な想いを<br>
+                            カタチにしてみませんか？
+                        </p>            
+                    </div>
+                    <div class="muku-innner muku-innner__img">
+                        <svg class="ashirai-katachi" id="ashirai-katachi" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 474.51 371.32">
+                            <defs>
+                                <style>
+                                    .katachi01{fill:#ddcedd;}
+                                    .katachi02{fill:#d8c5bf;}
+                                    .katachi03{fill:#d9dbb6;}
+                                    .katachi04{fill:#d8bf77;}
+                                    .katachi05{fill:#bad0db;}
+                                    .katachi06{fill:#d8bad5;}
+                                </style>
+                            </defs>
+                            <g id="ashirai-katachi__innner">
+                                <path class="katachi03" 
+                                d="M471.86,330.18c-9.46,21.51-34.72,23.6-56.7,26.68-22.96,3.57-45.75,7.56-68.39,12.5-54.69,12.67-66.66-38.78-67.78-81.27-.72-33.65,4.97-80.37,46.13-84.6,19.45-1.64,37.45,7.89,54.38,16.77,27.57,18.85,61.03,32.92,80.97,60.33,4.29,6.03,7.77,12.58,11.2,19.14,3.37,9.74,4.08,21.33.18,30.44Z"/>
+                                <path class="katachi01" 
+                                d="M307.08,180c0,39.54-89.69,63.41-152.38,63.41s-88.65-37.16-88.65-76.7,85.27-83.86,147.97-83.86,93.06,57.62,93.06,97.15Z"/>
+                                <path class="katachi05" 
+                                d="M109.95,51.54C107.12,26.56,162.08,5.07,201.68.59c39.61-4.48,58.66,17.14,61.49,42.12s-47.88,59.07-87.49,63.55c-39.61,4.48-62.91-29.75-65.74-54.73Z"/>
+                                <path class="katachi06" 
+                                d="M.1,254.85c-2.83-24.98,52.13-46.47,91.73-50.95s58.66,17.14,61.49,42.12c2.83,24.98-47.88,59.07-87.49,63.55C26.23,314.05,2.93,279.82.1,254.85Z"/>
+                                <path class="katachi02" 
+                                d="M355.81,38.54c36.29-2.02,96.85,19.85,92.23,65.72-.95,9.4-4.3,18.62-7.36,27.5-4.58,12.8-8.82,27.06-20.78,34.86-10.63,7.02-23.48,8.64-35.88,10.84-12.93,2.41-25.88,6.87-39.12,7.63-22.26,1.54-40.65-14.16-56.12-28.49-3.6-3.67-6.89-7.8-8.54-12.64-3.29-10.89.14-21.77,4.56-34.17,4.17-10.97,9.87-21.95,15.22-31.63,11.92-21.44,30.35-38.08,55.79-39.62Z"/>
+                                <path class="katachi04" 
+                                d="M128.95,319.84c-5.22-4.49-6.8-11.53-3.59-17.55,3.82-7.78,12.74-13.17,20.38-17.34,30.74-16.84,61.37-33.84,92.07-50.73,11.38-5.91,23.99-12.93,37-12.89,12.61.07,19.87,10.14,18.76,22.42-.75,9.9-4.89,19.24-9.19,28.09-7.09,14.08-15.05,27.55-22.78,41.23-21,36.81-37.39,50.8-80.52,31.64-9.82-4.1-19.27-8.43-28.88-12.61-7.72-3.52-17.19-6.87-23.16-12.19l-.08-.08Z"/>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="profile" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <div class="wrapper profile-section">
+                <h2 class="title profile-title pc-none">
+                    PROFILE
+                </h2>
+                <div class="profile-wrapper">
+                    <div class="profile-inner profile-inner__img">
+                        <img class="profile-bg__cercle" src="./img/ashirai_logo.png" alt="">
+                        <img class="profile-img" src="./img/profile_top.png" alt="プロフィール写真">
+                    </div>
+                    <div class="profile-inner profile-inner__text">
+                        <h2 class="title profile-title sp-none">
+                            PROFILE
+                        </h2>
+                        <p class="profile-designer">Designer</p>
+                        <p class="profile-name">Mao Sato</p> 
+                        <p class="profile-JaName">さとう まお</p>
+                        <div class="profile__btn">
+                            <button class="btn-next__inner">
+                                <div class="btn btn__rotate">
+                                    <a href="profile.html">
+                                        <span class="btn__next-text--default">VIEW MORE</span>
+                                        <span class="btn__next-text--fterRotate">VIEW MORE</span>
+                                    </a>
+                                </div>
+                                <div class="arrow-right">
+                                    <img class="arrow-right__before" src="./img/btn_right.svg" alt="右矢印">
+                                    <img class="arrow-right__after" src="./img/btn_right.svg" alt="右矢印">
+                                </div>
+                            </button>
+                            <div class="line-right">
+                                <div class="line-right__inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-bg__line">
+                <svg class="ashirai_nami" id="ashirai_nami" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 306.76 198.26">
+                    <defs>
+                        <style>
+                            .ashirai_nami01,.cashirai_nami02{fill:none;}
+                            .ashirai_nami02{stroke:#ccbfac;stroke-linecap:round;stroke-linejoin:round;stroke-width:24px;}
+                        </style>
+                    </defs>
+                    <g id="ashirai_nami__inner">
+                        <path class="ashirai_nami02" 
+                        d="M13.5,148.8c23.44,0,23.44,11.91,46.87,11.91s23.44-11.91,46.87-11.91,23.44,11.91,46.88,11.91,23.44-11.91,46.87-11.91,23.44,11.91,46.88,11.91,23.44-11.91,46.88-11.91"/>
+                        <path class="ashirai_nami02" 
+                        d="M13.5,86.65c23.44,0,23.44,11.91,46.87,11.91s23.44-11.91,46.87-11.91,23.44,11.91,46.88,11.91,23.44-11.91,46.87-11.91,23.44,11.91,46.88,11.91,23.44-11.91,46.88-11.91"/>
+                        <path class="ashirai_nami02" 
+                        d="M13.5,24.51c23.44,0,23.44,11.91,46.87,11.91s23.44-11.91,46.87-11.91,23.44,11.91,46.88,11.91,23.44-11.91,46.87-11.91,23.44,11.91,46.88,11.91,23.44-11.91,46.88-11.91"/>
+                        <rect class="ashirai_nami01" width="294.76" height="198.26"/></g>
+                </svg>
+            </div>
+        </section>
+
+        <section id="service" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <div class="wrapper service-section">
+                <h2 class="title service-title">
+                    SERVICE
+                </h2>
+                <div class="service-tab">
+                    <input id="tab-design" type="radio" name="tab" checked>
+                    <label class="tab tab-design" for="tab-design">デザイン</label>
+                    <input id="tab-cording" type="radio" name="tab">
+                    <label class="tab tab-cording" for="tab-cording">コーディング</label>
+                    <input id="tab-movie" type="radio" name="tab">
+                    <label class="tab tab-movie" for="tab-movie">動画編集</label>
+                    <input id="tab-illust" type="radio" name="tab">
+                    <label class="tab tab-illust" for="tab-illust">イラスト</label>
+
+                    <div id="service-tab__design" class="service-tab__content">
+                        <img class="service-tab__img" src="./img/skill_design.png" alt="">
+                        <p class="text service-text">
+                            バナー、LP（ランディングページ）、コーポレートサイトなどのWebデザインやロゴ、名刺などのグラフィックデザインを行っております。 
+                            見た目の美しさだけではなく、訴求ポイントを抑えた伝わりやすいデザインをご提案いたします。
+                        </p>
+                    </div>
+                    <div id="service-tab__cording" class="service-tab__content">
+                        <img class="service-tab__img" src="./img/skill_cording.png" alt="">
+                        <p class="text service-text">
+                            HTML/CSSを用いてサイト制作を行います。
+                            JavaScript（jQuery）を使用した動きのあるサイトやレスポンシブ対応のサイト制作も可能です。
+                            お気軽にご相談ください。
+                        </p>
+                    </div>
+                    <div id="service-tab__movie" class="service-tab__content">
+                        <img class="service-tab__img" src="./img/skill_movie.png" alt="">
+                        <p class="text service-text">
+                            PremiaProを使用して、YouTube動画やSNS動画の編集を行います。
+                            サムネイルやテロップの制作も承っております。
+                        </p>
+                    </div>
+                    <div id="service-tab__illust" class="service-tab__content">
+                        <img class="service-tab__img" src="./img/skill_illust.png" alt="">
+                        <p class="text service-text">
+                            アナログ風のゆるくてぽってりしたイラスト ＃ゆるぽてイラスト を描いています。
+                            ペットのかわいい瞬間を描く、うちの子イラストや挿絵におすすめの食べ物イラストなど承っております。
+                        </p>
+                    </div>
+                </div>
+                <div class="service__ashirai">
+                    <div class="service-blue__img">
+                        <svg id="service-blue__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 153.44 106.66">
+                            <defs>
+                                <style>
+                                    .service-blue{fill:#bad0db;}
+                                </style>
+                            </defs>
+                            <g id="service-blue">
+                                <path class="service-blue" 
+                                d="M.1,51.54C-2.72,26.56,52.23,5.07,91.84.59c39.61-4.48,58.66,17.14,61.49,42.12,2.83,24.98-47.88,59.07-87.49,63.55C26.23,110.75,2.93,76.52.1,51.54Z"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="service-pink__img">
+                        <svg id="service-pink__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.66 176.5">
+                            <defs>
+                                <style>
+                                    .service-pink{fill:#d8c5bf;}
+                                </style>
+                            </defs>
+                            <g id="service-pink">
+                                <path class="service-pink" 
+                                d="M92.45.15c43.63-2.43,116.46,23.86,110.9,79.03-1.14,11.3-5.17,22.39-8.85,33.07-5.5,15.39-10.6,32.53-24.99,41.92-12.79,8.44-28.24,10.39-43.15,13.03-15.54,2.89-31.11,8.27-47.04,9.17-26.77,1.85-48.88-17.02-67.48-34.26-4.33-4.41-8.28-9.37-10.27-15.2-3.95-13.09.17-26.17,5.49-41.09,5.02-13.19,11.87-26.39,18.3-38.03C39.69,22.02,61.86,2,92.45.15Z"/>
+                            </g>
+                        </svg>
+                    </div>    
+                </div>
+            </div>
+        </section>
+
+        <section id="work" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <div class="wrapper work-section">
+                <div class="work-wrapper">
+                    <h2 class="title work-title">
+                        WORK
+                    </h2>
+                    <ul class="work-list">
+                        <li class="work-item">
+                            <div class="work-img">
+                                <a href="work/bluecafe.html">
+                                    <img src="./img/work_bluecafe.jpg" alt="bluecafe様ショップカード">
+                                </a>
+                            </div>
+                            <div class="work-content">
+                                <span class="work-label">Graphic Design</span>
+                                <p class="work-shopname">Blue Cafe様</p>
+                                <p class="work-itemname">ロゴマーク、ショップカード</p>
+                            </div>
+                        </li>
+                        <li class="work-item">
+                            <div class="work-img">
+                                <a href="work/sou.html">
+                                    <img src="./img/work_sou.jpg" alt="蒼様ロゴマーク">
+                                </a>
+                            </div>
+                            <div class="work-content">
+                                <span class="work-label">Graphic Design</span>
+                                <p class="work-shopname">エステサロン 蒼 様</p>
+                                <p class="work-itemname">ロゴマーク</p>
+                            </div>
+                        </li>
+                        <li class="work-item">
+                            <div class="work-img">
+                                <a href="work/trrrrip.html">
+                                    <img src="./img/work_trrrrip.jpg" alt="trrrrip様バナー">
+                                </a>
+                            </div>
+                            <div class="work-content">
+                                <span class="work-label">Web Design</span>
+                                <p class="work-shopname">TRRRRIP 様</p>
+                                <p class="work-itemname">広告バナー</p>
+                            </div>
+                        </li>
+                        <li class="work-item">
+                            <div class="work-img">
+                                <a href="work/dezasta.html">
+                                    <img src="./img/work_dezasta.jpg" alt="デザスタ様モバイルバナー">
+                                </a>
+                            </div>
+                            <div class="work-content">
+                                <span class="work-label">Web Design</span>
+                                <p class="work-shopname">デザスタモバイル 様</p>
+                                <p class="work-itemname">広告バナー</p>
+                            </div>
+                        </li>
+                        <li class="work-item">
+                            <div class="work-img">
+                                <a href="work/workers.html">
+                                    <img src="./img/work_workers.jpg" alt="WORKERS様Webサイトデザイン">
+                                </a>
+                            </div>
+                            <div class="work-content">
+                                <span class="work-label">Web Design</span>
+                                <p class="work-shopname">WORKERS 様</p>
+                                <p class="work-itemname">Webサイト</p>
+                            </div>
+                        </li>
+                        <li class="work-item">
+                            <div class="work-img">
+                                <a href="work/lifeheirdesign.html">
+                                    <img src="./img/work_heirdesign.jpg" alt="LIFE hair design様Webサイトデザイン">
+                                </a>
+                            </div>
+                            <div class="work-content">
+                                <span class="work-label">Web Design</span>
+                                <p class="work-shopname">LIFE hair design様</p>
+                                <p class="work-itemname">Webサイト</p>
+                            </div>
+                        </li>
+                        <li class="work-item">
+                            <div class="work-img">
+                                <a href="work/mukudesign.html">
+                                    <img src="./img/work_muku.jpg" alt="mukudesignポートフォリオサイト">
+                                </a>
+                            </div>
+                            <div class="work-content">
+                                <span class="work-label">Web Design</span>
+                                <p class="work-shopname">muku design</p>
+                                <p class="work-itemname">ポートフォリオサイト</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="work__ashirai">
+                    <div class="work-yellow__img sp-none">
+                        <svg id="work-yellow__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 374.96 291.1">
+                            <defs>
+                                <style>
+                                    .work-yellow{fill:#d8bf77;}
+                                </style>
+                            </defs>
+                            <g id="work-yellow">
+                                <path class="work-yellow" 
+                                d="M11.58,217.32C.06,207.41-3.42,191.89,3.66,178.61c8.44-17.17,28.11-29.06,44.96-38.25C116.44,103.21,184,65.71,251.72,28.43,276.84,15.4,304.65-.08,333.34,0c27.81.17,43.83,22.36,41.38,49.45-1.66,21.83-10.8,42.44-20.26,61.98-15.64,31.07-33.2,60.77-50.25,90.97-46.33,81.2-82.49,112.06-177.63,69.81-21.67-9.05-42.52-18.59-63.71-27.82-17.03-7.75-37.93-15.16-51.09-26.89l-.19-.17Z"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="work-green__img">
+                        <svg id="work-green__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 378.7 325.31">
+                            <defs>
+                                <style>
+                                    .work-green{fill:#d9dbb6;}
+                                </style>
+                            </defs>
+                            <g id="work-green">
+                                <path class="work-green" 
+                                d="M373.58,245.66c-18.31,41.64-67.22,45.69-109.8,51.66-44.47,6.91-88.59,14.64-132.43,24.21C25.45,346.05,2.27,246.45.11,164.16-1.29,99,9.73,8.54,89.44.36c37.66-3.17,72.52,15.27,105.3,32.48,53.38,36.51,118.17,63.75,156.79,116.82,8.3,11.67,15.04,24.35,21.7,37.05,6.52,18.85,7.89,41.31.35,58.95Z"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="work-blue__img">
+                        <svg id="work-blue__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 153.44 106.66">
+                            <defs>
+                                <style>
+                                    .work-blue{fill:#bad0db;}
+                                </style>
+                            </defs>
+                            <g id="work-blue">
+                                <path class="work-blue" 
+                                d="M.1,51.54C-2.72,26.56,52.23,5.07,91.84.59c39.61-4.48,58.66,17.14,61.49,42.12,2.83,24.98-47.88,59.07-87.49,63.55C26.23,110.75,2.93,76.52.1,51.54Z"/>
+                            </g>
+                        </svg>
+                    </div>    
+                </div>
+                <div class="work__btn">
+                    <button class="btn-next__inner">
+                        <div class="btn btn__rotate">
+                            <a href="work.html">
+                                <span class="btn__next-text--default">VIEW MORE</span>
+                                <span class="btn__next-text--fterRotate">VIEW MORE</span>
+                            </a>
+                        </div>
+                        <div class="arrow-right">
+                            <img class="arrow-right__before" src="./img/btn_right.svg" alt="右矢印">
+                            <img class="arrow-right__after" src="./img/btn_right.svg" alt="右矢印">
+                        </div>
+                    </button>
+                    <div class="line-right">
+                        <div class="line-right__inner"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <div class="wrapper contact-section">
+                <h2 class="title contact-title">
+                    CONTACT
+                </h2>
+                <p class="text contact-text">
+                    制作のご依頼やご相談は<br class="pc-none">こちらからお問合せください。
+                </p>
+                <div class="contact-img">
+                    <svg id="contact-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 301 301">
+                        <defs>
+                            <style>
+                                .contact-img01{stroke-dasharray:6.04 6.04 6.04 6.04 6.04 6.04;stroke-miterlimit:10;}
+                                .contact-img01,.contact-img02{fill:none;}
+                                .contact-img01,.contact-img03{stroke:#452e13;}
+                                .contact-img02{stroke:#e5e1da;stroke-width:3px;}
+                                .contact-img02,.contact-img03{stroke-linecap:round;stroke-linejoin:round;}
+                                .contact-img03{stroke-width:3.72px;}
+                                .contact-img03,.contact-img04{fill:#fff;}
+                            </style>
+                        </defs>
+                        <g id="contact-img__inner">
+                            <circle class="contact-img04" cx="150.5" cy="150.5" r="150"/>
+                            <circle class="contact-img01" cx="150.5" cy="150.5" r="150"/>
+                            <line class="contact-img02" x1="163.94" y1="3.45" x2="37.92" y2="82.7"/>
+                            <line class="contact-img02" x1="163.94" y1="50.3" x2="37.92" y2="129.55"/>
+                            <line class="contact-img02" x1="255.31" y1="43.07" x2="129.29" y2="122.32"/>
+                            <line class="contact-img02" x1="224.58" y1="124.97" x2="98.56" y2="204.21"/>
+                            <line class="contact-img02" x1="298.5" y1="138.89" x2="172.48" y2="218.14"/>
+                            <line class="contact-img02" x1="282.36" y1="209.14" x2="156.33" y2="288.39"/>
+                            <polygon class="contact-img03" points="205.95 110.69 159.67 197.2 119.94 162.24 90.73 136.53 205.95 110.69"/>
+                            <polygon class="contact-img03" points="116.38 189.88 139.69 179.62 119.94 162.24 116.38 189.88"/>
+                            <line class="contact-img03" x1="119.94" y1="162.24" x2="205.95" y2="110.69"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="contact__btn">
+                    <button class="btn-next__inner">
+                        <div class="btn btn__rotate btn-text__ja">
+                            <a href="contact.html">
+                                <span class="btn__next-text--default">ご依頼について</span>
+                                <span class="btn__next-text--fterRotate">ご依頼について</span>
+                            </a>
+                        </div>
+                        <div class="arrow-right">
+                            <img class="arrow-right__before" src="./img/btn_right.svg" alt="右矢印">
+                            <img class="arrow-right__after" src="./img/btn_right.svg" alt="右矢印">
+                        </div>
+                    </button>
+                    <div class="line-right">
+                        <div class="line-right__inner"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="footer__wrapper">
+            <div class="footer__logo">
+                <a href="index.html">
+                    <img src="./img/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="footer__inner">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#mukudesign">
+                            <p class="footer__text">muku design</p>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="profile.html">
+                            <p class="footer__text">PROFILE</p>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#service">
+                            <p class="footer__text">SERVICE</p>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="work.html">
+                            <span class="footer__text">WORK</span>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="contact.html">
+                            <span class="footer__text text__yellow">CONTACT</span>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="privacy-policy.html">
+                            <span class="footer__text text__gray">Privacy Policy</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-insta">
+                <a href="https://www.instagram.com/design.muku" target="_blank">
+                    <img src="./img/insta.png" alt="インスタグラムアイコン">
+                </a>
+            </div>
+            <div class="copyright">
+                <p>&copy;muku desigin ALL RIGHTS RESERVED</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="top-btn">
+        <a href="#header">
+            <img src="./img/top_btn.png" alt="">
+        </a>
+    </div>
+</body>
+</html>
