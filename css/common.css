@@ -265,7 +265,6 @@ btn-next
     width: 200px;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
     position: relative;
 }
 .btn-next__inner--long{
@@ -840,7 +839,6 @@ nocontact-line
     ------------------------------- */
     .btn-next__inner{
         width: 170px;
-        gap: 24px;
     }
     .btn-next__inner--long{
         width: 220px;
