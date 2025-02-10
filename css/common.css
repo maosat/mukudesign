@@ -238,22 +238,23 @@ btn-prev
     overflow: hidden;
     border-radius: 5px;
     content: "";
+    transform: rotate(180deg);
 }
 .line-left .line-left__inner{
     height: 100%;
     background: #452e13;
     position: absolute;
-    animation: progress 3s normal;
+    animation: progress-left 3s normal;
     animation-fill-mode: backwards;
     animation-direction: reverse;
     animation-iteration-count: infinite;
 }
-@keyframes progress{
+@keyframes progress-left{
     0%{
-        width: 0;
+        width: 100%;
     }
     100%{
-        width: 100%;
+        width: 0%;
     }
 }
 /* -------------------------------
