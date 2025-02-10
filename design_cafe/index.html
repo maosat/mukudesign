@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>デザインカフェ</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link 
+        rel="stylesheet" 
+        type="text/css" 
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link 
+        rel="stylesheet" 
+        type="text/css" 
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="./css/lightbox.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/lightbox.min.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="header__inner">
+            <h1 class="logo">
+                <a href="./index.html">
+                    <img src="./images/design_cafe_logo_header@2x.png" alt="デザインカフェ">
+                </a>
+            </h1>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#menu">MENU</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#event">EVENT</a></li>
+                    <li><a href="#access">ACCESS</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hamburger">
+            <span></span>
+        </div>
+        <nav class="sp__nav">
+            <ul>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#event">EVENT</a></li>
+                <li><a href="#access">ACCESS</a></li>
+            </ul>
+        </nav>
+        <div class="mainvisual">
+            <picture>
+                <source srcset="./images/sp_main_vs@2x-100.jpg" media="(max-width :767px)">
+                <img src="./images/pc_first-100.jpg" alt="カフェ店内の様子">
+            </picture>
+            <picture>
+                <source srcset="./images/sp_main_vs_2@2x-100.jpg" media="(max-width :767px)">
+                <img src="./images/slider_2.jpg" alt="カフェ店内の様子">
+            </picture>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="intro-wrapper">
+                <h3 class="text intro__subtitle">
+                    Have a happy day From a cup of coffee.
+                </h3>
+                <h2 class="text intro__title">
+                    ハッピーに溢れる1日を<br>
+                    1杯のコーヒーから。
+                </h2>
+                <p class="text intro__text">
+                    毎日を丁寧に大切に過ごしたい。<br class="pc-none">だからこそ一杯一杯丁寧にコーヒーを入れ<br>
+                    足を運んでくれるお客さんには落ち着く空間と<br class="pc-none">こだわりのコーヒーを提供したい。
+                </p>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="wrapper">
+                <div class="about__inner">
+                    <h4 class="title about__title pc-none">
+                        <img src="./images/about_us@2x.png" alt="私たちについて">
+                    </h4>
+                    <div class="about__img">
+                        <img src="./images/about_us@2x-100.jpg" alt="コーヒーを上から見た様子">
+                    </div>
+                    <div class="about__text-area">
+                        <h4 class="title about__title sp-none">
+                            <img src="./images/about_us@2x.png" alt="私たちについて">
+                        </h4>
+                        <h5 class="text about__sub-title">
+                            私たちが提供する<br>
+                            こだわりのコーヒー
+                        </h5>
+                        <p class="text about__text">
+                            サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。
+                            サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。
+                            サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。
+                            サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。
+                            サービスを提供する上での想いや心がけていることなど、メッセージを文章で紹介します。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu">
+            <div class="wrapper">
+                <div class="menu__inner">
+                    <h4 class="title menu__title">
+                        <img src="./images/menu@2x.png" alt="メニュー">
+                    </h4>
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <img class="menu__img" src="./images/pc_menu_drink-100.jpg" alt="ドリンクメニュー">
+                            <div class="text menu__heading">Drink</div>
+                            <p class="text menu__text">
+                                ドリンクメニューの概要を100文字程度で紹介します。
+                                素材やこだわりなどをアピールしていきます。
+                            </p>
+                        </li>
+                        <li class="menu__item">
+                            <img class="menu__img" src="./images/pc_menu_food-100.jpg" alt="フードメニュー">
+                            <div class="menu__heading">Food</div>
+                            <p class="text menu__text">
+                                フードメニューの概要を100文字程度で紹介します。
+                                素材やこだわりなどをアピールしていきます。
+                            </p>
+                        </li>
+                        <li class="menu__item">
+                            <img class="menu__img" src="./images/pc_menu_sweets-100.jpg" alt="スイーツメニュー">
+                            <div class="menu__heading">Sweets</div>
+                            <p class="text menu__text">
+                                スイーツメニューの概要を100文字程度で紹介します。
+                                素材やこだわりなどをアピールしていきます。
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <div class="gallery__wrapper">
+                <h4 class="title gallery__title">
+                    <img src="./images/gallery@2x.png" alt="ギャラリー">
+                </h4>
+                <div class="gallery__slide">
+                    <ul class="gallery__list">
+                        <li class="gallery__item">
+                            <a href="./images/pc_gallary_01-100.jpg" data-lightbox="lightbox" data-title="" data-alt="コーヒーをそそぐ様子">
+                                <img src="./images/pc_gallary_01-100.jpg" alt="コーヒーをそそぐ様子">
+                            </a>
+                        </li>
+                        <li class="gallery__item">
+                            <a href="./images/pc_gallary_02-100.jpg" data-lightbox="lightbox" data-title="" data-alt="カフェの外観">
+                                <img src="./images/pc_gallary_02-100.jpg" alt="カフェの外観">
+                            </a>
+                        </li>
+                        <li class="gallery__item">
+                            <a href="./images/pc_gallary_03-100.jpg" data-lightbox="lightbox" data-title="" data-alt="カフェの店内">
+                                <img src="./images/pc_gallary_03-100.jpg" alt="カフェの店内">
+                            </a>
+                        </li>
+                        <li class="gallery__item">
+                            <a href="./images/pc_gallary_04-100.jpg" data-lightbox="lightbox" data-title="" data-alt="コーヒー豆を上から見た様子">
+                                <img src="./images/pc_gallary_04-100.jpg" alt="コーヒー豆を上から見た様子">
+                            </a>
+                        </li>
+                        <li class="gallery__item">
+                            <a href="./images/pc_gallary_05-100.jpg" data-lightbox="lightbox" data-title="" data-alt="店内のお客さんの様子">
+                                <img src="./images/pc_gallary_05-100.jpg" alt="店内のお客さんの様子">
+                            </a>
+                        </li>
+                        <li class="gallery__item">
+                            <a href="./images/pc_gallary_03-100.jpg" data-lightbox="lightbox" data-title="" data-alt="カフェの店内">
+                                <img src="./images/pc_gallary_03-100.jpg" alt="カフェの店内">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="event">
+            <div class="wrapper">
+                <div class="event__inner">
+                    <h4 class="title event__title">
+                        <img src="./images/event@2x.png" alt="イベント">
+                    </h4>    
+                    <div class="event__content">
+                        <ul class="event__list">
+                            <li class="event__item">
+                                <a href="#">
+                                    <p class="event__date">2020.06.23</p>
+                                    <p class="event__text"><u>7月はイベント出店のため0/0お休みします</u></p>
+                                </a>
+                            </li>
+                            <li class="event__item">
+                                <a href="#">
+                                    <p class="event__date">2020.03.15</p>
+                                    <p class="event__text"><u>春の新商品新発売。話題のあのブランドとコラボ</u></p>
+                                </a>
+                            </li>
+                            <li class="event__item">
+                                <a href="#">
+                                    <p class="event__date">2020.02.06</p>
+                                    <p class="event__text"><u>コーヒーの日で30%OFFイベントを開催［3日間限定］</u></p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="access">
+            <div class="access__wrapper">
+                <h4 class="title access__title">
+                    <img src="./images/access@2x.png" alt="アクセス">
+                </h4>    
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.8280295764384!2d139.76261868885499!3d35.681236200000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1730563425434!5m2!1sja!2sjp" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="wrapper">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <a href="./index.html">
+                        <img src="./images/design_cafe_logo_footer@2x.png" alt="デザインカフェ">
+                    </a>
+                </div>
+                <div class="footer__address">
+                    <p>OPEN 18:00 / CLOSE 24:00</p>
+                    <p>〒150-0022</p>
+                    <p>東京都渋谷区東京南123デザインビルB1</p>
+                    <p>MAIL：info@designcafe.tokyo</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2021 DESIGN CAFE</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="top__btn">
+        <a href="#header">
+            <img src="./images/to_top@2x.png" alt="トップに戻る">
+        </a>
+    </div>
+
+    <script>
+        $(function(){
+            //ハンバーガーメニュー
+            $('.hamburger').click(function(){
+                $('.sp__nav').fadeToggle();
+                $('.hamburger').toggleClass('open');
+            })
+            //スライダー
+            $(".mainvisual").slick({
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                dots: true
+            })
+
+            $(".gallery__list").slick({
+                arrows: false,
+                autoplay: true,
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                autoplaySpeed: 3000,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                        slidesToShow: 1,
+                        },
+                    },
+                ],
+            });
+        });
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+    })
+    </script>
+</body>
+</html>
