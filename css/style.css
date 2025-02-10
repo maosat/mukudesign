@@ -1526,8 +1526,7 @@ thanks-page
         width: 100%;
         flex-wrap: wrap;
         align-items: stretch;
-        justify-content: center;
-        flex-wrap: wrap;
+        justify-content: flex-start;
         gap: 16px;
     }
     .work-page__img img{
@@ -1536,11 +1535,11 @@ thanks-page
     }
     .work-page__item{
         display: flex;
-        width: calc((100% - 40px) / 2);
+        width: calc((100% - 16px) / 2);
         flex-direction: column;
         gap: 16px;
         padding-top: 32px;
-        flex-grow: 1;
+        flex-grow: 0;
     }
     .work-page__label{
         font-size: 12px;
