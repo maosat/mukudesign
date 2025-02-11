@@ -483,7 +483,7 @@ work-post
 #work-post__list th{
     width: 30%;
     font-weight: bold;
-    padding-right: 32px;
+    padding-right: 16px;
 }
 .work-post__img{
     width: 100%;
