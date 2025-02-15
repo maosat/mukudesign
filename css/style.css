@@ -1398,7 +1398,6 @@ thanks-page
         display: block;
         position: absolute;
         left: 50%;
-        margin-left: 12px;
         padding-bottom: 8px;
     }
     .tab-movie{
@@ -1414,7 +1413,6 @@ thanks-page
         position: absolute;
         left: 50%;
         margin-top: 48px;
-        margin-left: 12px;
         padding-bottom: 8px;
     }
     .tab:not(:first-of-type)::before{
